@@ -3,24 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Australian Building Technology — Powering Reliable Infrastructure</title>
-  <meta name="description" content="Australian Building Technology — Electrical contracting & utility projects with a focus on safety, quality, and on-time delivery in Saudi Arabia." />
+  <title>Australian Building Technology — SEC Projects, Substations & LV Works</title>
+  <meta name="description" content="Australian Building Technology (ABT) — Electrical contractor working under Saudi Electricity Company projects: Unit Substations, RMU, LV Panels, Cables, Feeders, and Meter Installation — aligned with Saudi Vision 2030." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='80'>⚡</text></svg>">
   <style>
     :root{
-      --ink:#0b132b;           /* deep navy */
-      --sky:#1c2541;           /* darker navy */
-      --brand:#f0b429;         /* amber */
-      --muted:#4a5568;         /* grey */
-      --bg:#0f172a;            /* slate-900 */
-      --card:#111827ee;        /* translucent slate */
-      --white:#ffffff;
-      --soft:#e5e7eb;          /* light grey */
-      --success:#10b981;
-      --danger:#ef4444;
+      --ink:#0b132b;--sky:#1c2541;--brand:#f0b429;--muted:#4a5568;--bg:#0f172a;--card:#111827ee;--white:#ffffff;--soft:#e5e7eb;--success:#10b981;--danger:#ef4444
     }
     *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:linear-gradient(180deg,var(--bg),#0b1020);color:var(--white);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,var(--bg),#0b1020);color:var(--white);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
     a{color:var(--brand);text-decoration:none}
     .container{max-width:1150px;margin:0 auto;padding:0 20px}
     header{position:sticky;top:0;z-index:50;background:rgba(10,15,30,.6);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
@@ -32,7 +23,6 @@
     nav a:hover{background:rgba(255,255,255,.08)}
     .lang-toggle{border:1px solid rgba(255,255,255,.2);background:transparent;color:var(--white);padding:8px 12px;border-radius:999px;cursor:pointer}
 
-    /* Hero */
     .hero{position:relative;overflow:hidden}
     .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 10% -10%, rgba(240,180,41,.25), transparent 60%),radial-gradient(1000px 300px at 90% 10%, rgba(28,37,65,.8), transparent 50%)}
     .hero-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:70px 0}
@@ -49,7 +39,6 @@
     .glow{position:absolute;inset:-20%;background:radial-gradient(closest-side, rgba(240,180,41,.35), transparent 60%);filter:blur(30px);opacity:.8}
     .meter{width:100%;height:280px;border-radius:18px;background:linear-gradient(135deg, #10192e, #0b132b);display:grid;place-items:center;border:1px solid rgba(255,255,255,.06)}
 
-    /* Sections */
     section{padding:56px 0;border-top:1px solid rgba(255,255,255,.06)}
     section h2{font-size:28px;margin:0 0 14px}
     .muted{color:#cbd5e1}
@@ -57,26 +46,17 @@
     .grid-3{grid-template-columns:repeat(3,1fr)}
     .grid-2{grid-template-columns:repeat(2,1fr)}
 
-    /* Services */
     .svc{display:flex;gap:14px}
     .svc-icon{min-width:44px;height:44px;border-radius:12px;background:rgba(240,180,41,.12);display:grid;place-items:center;border:1px solid rgba(240,180,41,.35)}
-
-    /* Projects */
     .project{display:flex;flex-direction:column;gap:8px}
     .tags{display:flex;flex-wrap:wrap;gap:8px}
     .tag{font-size:12px;border:1px solid rgba(255,255,255,.18);padding:4px 8px;border-radius:999px;color:#d1d5db}
-
-    /* Footer */
     footer{border-top:1px solid rgba(255,255,255,.06);padding:36px 0;color:#94a3b8}
 
-    /* Arabic (RTL) support */
     [dir="rtl"] body{font-family:"Tajawal",Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .rtl .ar{display:inline}
-    .rtl .en{display:none}
-    .ltr .ar{display:none}
-    .ltr .en{display:inline}
+    .rtl .ar{display:inline}.rtl .en{display:none}
+    .ltr .ar{display:none}.ltr .en{display:inline}
 
-    /* Responsive */
     @media (max-width: 960px){
       .hero-inner{grid-template-columns:1fr}
       .grid-3{grid-template-columns:1fr}
@@ -112,35 +92,30 @@
       <div class="container hero-inner">
         <div>
           <div class="badge">
-            <span class="en">Utility Projects • SEC Experience</span>
-            <span class="ar">مشاريع المرافق • خبرة مع الشركة السعودية للكهرباء</span>
+            <span class="en">Working under Saudi Electricity Company (SEC) • Vision 2030</span>
+            <span class="ar">نعمل تحت مظلة الشركة السعودية للكهرباء • رؤية السعودية 2030</span>
           </div>
           <h1>
-            <span class="en">Powering reliable infrastructure across Saudi Arabia</span>
-            <span class="ar">نبني بنية تحتية كهربائية موثوقة في أنحاء المملكة</span>
+            <span class="en">Powering Saudi infrastructure — substations, LV networks & metering</span>
+            <span class="ar">نُنفّذ البنية التحتية الكهربائية — محطات فرعية وشبكات الجهد المنخفض والعدّادات</span>
           </h1>
           <p class="lead">
-            <span class="en">We deliver end‑to‑end electrical works—metering, terminations, CB installation, and joints—backed by rigorous safety and quality control.</span>
-            <span class="ar">نقدّم أعمالاً كهربائية متكاملة: عدّادات، نهايات الكيابل، تركيب قواطع، ووصلات—بدعم أعلى معايير السلامة والجودة.</span>
+            <span class="en">ABT delivers Unit Substations, RMU works, LV panels, cable & feeder installations, and smart meter rollouts — with documented HSE and QA/QC.</span>
+            <span class="ar">تُقدّم ABT أعمال المحطات الفرعية المدمجة، ووحدات RMU، ولوحات الجهد المنخفض، وتركيب الكوابل والمغذّيات، ونشر العدّادات الذكية — مع التزام كامل بالسلامة والجودة.</span>
           </p>
           <div class="cta">
             <a class="btn btn-primary" href="#contact"><span class="en">Request a Quote</span><span class="ar">اطلب عرض سعر</span></a>
             <a class="btn btn-ghost" href="#projects"><span class="en">See Projects</span><span class="ar">شاهد المشاريع</span></a>
           </div>
         </div>
-        <div class="hero-art">
-          <div class="glow" aria-hidden="true"></div>
-          <div class="meter card" aria-hidden="true">
+        <div class="hero-art" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="meter card">
             <svg viewBox="0 0 300 150" width="88%" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g" x1="0" x2="1">
-                  <stop offset="0%" stop-color="#f0b429" stop-opacity=".8"/>
-                  <stop offset="100%" stop-color="#fff" stop-opacity=".7"/>
-                </linearGradient>
-              </defs>
+              <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0%" stop-color="#f0b429" stop-opacity=".8"/><stop offset="100%" stop-color="#fff" stop-opacity=".7"/></linearGradient></defs>
               <path d="M20 110 C 80 10, 220 10, 280 110" stroke="url(#g)" stroke-width="6" fill="none"/>
               <circle cx="150" cy="110" r="8" fill="#f0b429"/>
-              <text x="50%" y="135" text-anchor="middle" fill="#cbd5e1" font-family="monospace" font-size="12">ABT • ELECTRICAL • SEC</text>
+              <text x="50%" y="135" text-anchor="middle" fill="#cbd5e1" font-family="monospace" font-size="12">ABT • SEC • VISION 2030</text>
             </svg>
           </div>
         </div>
@@ -151,8 +126,8 @@
       <div class="container">
         <h2><span class="en">About Us</span><span class="ar">من نحن</span></h2>
         <p class="muted">
-          <span class="en">Australian Building Technology (ABT) is an electrical contractor supporting utility and infrastructure projects. Our teams specialize in distribution works, LV panels, metering, and safe energization procedures, delivering on schedule with documented QA/QC.</span>
-          <span class="ar">تُعد Australian Building Technology (ABT) مقاولاً كهربائياً يدعم مشاريع المرافق والبنية التحتية. نمتلك فرقاً متخصصة في أعمال التوزيع ولوحات الجهد المنخفض والعدّادات وإجراءات التشغيل الآمن مع توثيق كامل للجودة.</span>
+          <span class="en">Australian Building Technology (ABT) is an electrical contractor executing works under Saudi Electricity Company (SEC) projects. We specialize in Unit Substations (USS), RMU installations, LV panel works, cables & feeders, and meter installation/retrofit — aligned with Saudi Vision 2030 goals for reliable, efficient grids.</span>
+          <span class="ar">تُعد ABT مقاولاً كهربائياً يعمل ضمن مشاريع الشركة السعودية للكهرباء (SEC). نمتاز بتنفيذ المحطات الفرعية المدمجة، وتركيب وحدات RMU، وأعمال لوحات الجهد المنخفض، والكوابل والمغذّيات، وتركيب العدّادات — بما ينسجم مع رؤية السعودية 2030 لشبكات موثوقة وكفؤة.</span>
         </p>
       </div>
     </section>
@@ -162,31 +137,45 @@
         <h2><span class="en">Core Services</span><span class="ar">الخدمات الأساسية</span></h2>
         <div class="grid grid-2">
           <div class="card svc">
-            <div class="svc-icon" aria-hidden="true">⚡</div>
+            <div class="svc-icon" aria-hidden="true">🏭</div>
             <div>
-              <h3>Meter Installation</h3>
-              <p class="muted">Single/Three‑phase meters, smart meter retrofits, testing & commissioning.</p>
+              <h3>Unit Substations (USS)</h3>
+              <p class="muted">Supply, installation & commissioning; civil/interface coordination; SEC standards compliance.</p>
             </div>
           </div>
           <div class="card svc">
-            <div class="svc-icon" aria-hidden="true">🛡️</div>
+            <div class="svc-icon" aria-hidden="true">🧰</div>
             <div>
-              <h3>CB Change / Installation</h3>
-              <p class="muted">Circuit breaker selection, panel works, load verification, and labeling.</p>
-            </div>
-          </div>
-          <div class="card svc">
-            <div class="svc-icon" aria-hidden="true">🔧</div>
-            <div>
-              <h3>Termination</h3>
-              <p class="muted">Cable preparation, crimping & lugging, torque checks, insulation tests.</p>
+              <h3>RMU Works</h3>
+              <p class="muted">Ring Main Units installation, protection checks, switching procedures & energization.</p>
             </div>
           </div>
           <div class="card svc">
             <div class="svc-icon" aria-hidden="true">🧩</div>
             <div>
-              <h3>Joint</h3>
-              <p class="muted">Heat‑shrink and cold‑shrink joints, LV distribution tie‑ins, as‑built updates.</p>
+              <h3>LV Panels</h3>
+              <p class="muted">Panel assembly, CB selection/installation, labeling, load verification, T&C.</p>
+            </div>
+          </div>
+          <div class="card svc">
+            <div class="svc-icon" aria-hidden="true">🪫</div>
+            <div>
+              <h3>Cables & Feeders</h3>
+              <p class="muted">Laying, terminations & joints (heat/cold-shrink), insulation tests, as-built updates.</p>
+            </div>
+          </div>
+          <div class="card svc">
+            <div class="svc-icon" aria-hidden="true">⚡</div>
+            <div>
+              <h3>Meter Installation</h3>
+              <p class="muted">Single/three-phase, smart meter retrofit, testing, integration & documentation.</p>
+            </div>
+          </div>
+          <div class="card svc">
+            <div class="svc-icon" aria-hidden="true">🛡️</div>
+            <div>
+              <h3>HSE & QA/QC</h3>
+              <p class="muted">PTW, LOTO, JSA; ITPs, calibration, inspection reports; SEC/utility handover dossiers.</p>
             </div>
           </div>
         </div>
@@ -198,19 +187,19 @@
         <h2><span class="en">Selected Projects</span><span class="ar">مشاريع مختارة</span></h2>
         <div class="grid grid-3">
           <div class="card project">
-            <strong>Feeder Upgrade — Dammam</strong>
-            <span class="muted">LV panels, CB replacement, terminations, testing & commissioning.</span>
-            <div class="tags"><span class="tag">LV</span><span class="tag">CB</span><span class="tag">T&C</span></div>
+            <strong>Unit Substation — Dammam</strong>
+            <span class="muted">USS placement, RMU tie-in, LV panels, feeders, testing & commissioning.</span>
+            <div class="tags"><span class="tag">USS</span><span class="tag">RMU</span><span class="tag">LV</span></div>
           </div>
           <div class="card project">
-            <strong>Smart Meter Rollout — Khobar</strong>
-            <span class="muted">Meter installation, verification, integration with utility systems.</span>
+            <strong>Feeder Upgrade — Eastern Province</strong>
+            <span class="muted">Cable laying, terminations & joints, protection checks, as-builts.</span>
+            <div class="tags"><span class="tag">Feeders</span><span class="tag">Cables</span></div>
+          </div>
+          <div class="card project">
+            <strong>Meter Rollout — Khobar</strong>
+            <span class="muted">Smart meter installation, verification, and system integration.</span>
             <div class="tags"><span class="tag">Metering</span><span class="tag">QA/QC</span></div>
-          </div>
-          <div class="card project">
-            <strong>Industrial Tie‑in — Jubail</strong>
-            <span class="muted">Cable joints & terminations, safety permits, as‑built documentation.</span>
-            <div class="tags"><span class="tag">Joint</span><span class="tag">Termination</span></div>
           </div>
         </div>
       </div>
@@ -223,8 +212,8 @@
           <div class="card">
             <h3>Safety First</h3>
             <ul>
-              <li>Permit‑to‑Work (PTW) compliance</li>
-              <li>Lock‑out/Tag‑out (LOTO)</li>
+              <li>Permit-to-Work (PTW), switching plans</li>
+              <li>Lock-out/Tag-out (LOTO)</li>
               <li>Daily toolbox talks & risk assessments (JSA)</li>
             </ul>
           </div>
@@ -233,7 +222,7 @@
             <ul>
               <li>Inspection & Test Plans (ITP)</li>
               <li>Calibration & test reports</li>
-              <li>As‑built drawings & handover dossiers</li>
+              <li>As-built drawings & handover dossiers</li>
             </ul>
           </div>
         </div>
@@ -257,11 +246,12 @@
           <div class="card">
             <strong>Australian Building Technology</strong>
             <p class="muted">Dammam, Saudi Arabia</p>
-            <p class="muted">Phone: +966‑5X‑XXXX‑XXX<br>Email: info@example.com</p>
+            <p class="muted">Address: 7645 Street 28, Dammam, Ash Sharqiyah 32423</p>
+            <p class="muted">Phone: +966-5X-XXXX-XXX<br>Email: info@example.com</p>
             <p class="muted">Working Hours: Sun–Thu, 8:00–17:00</p>
-            <!-- Optional Google Map embed (replace src with your place link)
-            <iframe style="width:100%;height:260px;border:0;border-radius:12px" loading="lazy" allowfullscreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d0!3d0"></iframe> -->
+            <p><a href="https://maps.app.goo.gl/dNE63ZfD8yTgCHCn6" target="_blank" rel="noopener">View on Google Maps</a></p>
+            <!-- If you want an embed, replace src with your place embed URL -->
+            <!-- <iframe style="width:100%;height:260px;border:0;border-radius:12px" loading="lazy" allowfullscreen src="YOUR_GOOGLE_MAPS_EMBED_URL"></iframe> -->
           </div>
         </div>
       </div>
@@ -270,29 +260,23 @@
 
   <footer>
     <div class="container" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">
-      <span>© <span id="year"></span> Australian Building Technology</span>
+      <span>© <span id="year"></span> Australian Building Technology • <span class="en">Aligned with Saudi Vision 2030</span><span class="ar">متوافق مع رؤية السعودية 2030</span></span>
       <a href="#top">Back to top ↑</a>
     </div>
   </footer>
 
   <script>
-    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Fake form submit
     function submitMsg(){
       const el = document.getElementById('formNote');
       el.textContent = 'Thanks — your message has been captured locally. Connect this form to your email/API to receive submissions.';
       el.style.color = 'var(--success)';
     }
-
-    // Language toggle (EN/AR)
     const btn = document.getElementById('langBtn');
     btn.addEventListener('click',()=>{
       const root = document.body;
       const isLTR = root.classList.contains('ltr');
-      root.classList.toggle('ltr');
-      root.classList.toggle('rtl');
+      root.classList.toggle('ltr'); root.classList.toggle('rtl');
       document.documentElement.setAttribute('dir', isLTR ? 'rtl' : 'ltr');
       btn.textContent = isLTR ? 'EN' : 'AR';
     });
